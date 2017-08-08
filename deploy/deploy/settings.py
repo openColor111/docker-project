@@ -81,7 +81,7 @@ DATABASES = {
 	'USER': 'root',
 	'PASSWORD': 'cisco123',
 	'PORT': 13306,
-	'HOST':'192.168.128.129',
+	'HOST':'192.168.128.130',
     }
 }
 

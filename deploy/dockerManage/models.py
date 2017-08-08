@@ -8,3 +8,6 @@ class Instance(models.Model):
     docker_id = models.CharField(max_length=128)
     ip = models.GenericIPAddressField(protocol='ipv4')
     port = models.IntegerField()
+
+def __unicode__(this):
+	return this.docker_id
